@@ -83,8 +83,8 @@ affinity: {}
 
 ## Adding values for nginx test
 global:
-  myapp-api:
+  myappapi:
     enabled: true
 
-myapi-app:
+myapiapp:
   replicas:
