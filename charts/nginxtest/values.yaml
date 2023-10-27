@@ -80,3 +80,11 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+## Adding values for nginx test
+global:
+  myapp-api:
+    enabled: true
+
+myapi-app:
+  replicas:
